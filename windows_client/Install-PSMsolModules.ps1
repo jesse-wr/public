@@ -11,6 +11,10 @@ Install-Module -Name MSOnline
 # Connect-MsolService
 
 
+# Exchange Online Module with 2FA support
+# https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps
+
+
 # AzureAD
 # This is the newer tenant directory management tool 
 # Prefix: AzureAD
