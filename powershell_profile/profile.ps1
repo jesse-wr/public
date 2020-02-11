@@ -68,3 +68,9 @@ function Start-PSEXOnline {
             Write-Host
         }
         }
+
+        
+function Get-RandomPassword {
+                Invoke-WebRequest -Uri https://www.dinopass.com/password/strong | Select-Object -ExpandProperty content
+    
+}
