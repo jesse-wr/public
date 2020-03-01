@@ -149,7 +149,7 @@ function Set-TimeZone
      Create-Prompt
         if ($global:result -eq '0')
                 {
-                 tzutil.exe /s 'AUS Central Standard Time'
+                 tzutil.exe /s "AUS Central Standard Time"
                  if ($LASTEXITCODE -eq '0')
                         {Write-Verbose -Message "Time zone set successfully"}
                 }     
