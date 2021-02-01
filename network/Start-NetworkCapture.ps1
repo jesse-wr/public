@@ -16,7 +16,7 @@ $CapturePath = "$env:LOCALAPPDATA\Temp\NetTraces\NetTrace.etl"
 $PCAPNGPath = "$env:LOCALAPPDATA\Temp\NetTraces\$(Get-Date -Format dd-MM-yyy-hhmm)_NetTrace.pcapng"
 $ETLToolPath = "$env:USERPROFILE\Downloads\etl2pcapng\x64\"    
 
-if ($ETLTool) {
+if ($ETLToolPath) {
     Write-Host "Tool already exists, skipping..."
 }
 else {
