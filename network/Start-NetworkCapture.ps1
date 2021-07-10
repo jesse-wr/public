@@ -1,4 +1,5 @@
 # Start capture
+# Start-NetworkCapture.ps1
 function startCapture {
     param ()
 netsh trace start capture=yes report=disabled
