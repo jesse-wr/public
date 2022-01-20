@@ -23,7 +23,7 @@ try {
 
         $senderAddress = Read-Host -Prompt "What is the sender address or domain? eg. @domain.com or user@domain.com"
 
-        Clear-Variable -Name recipientCheck,subjectCheck
+        Clear-Variable -Name recipientCheck,subjectCheck -ErrorAction SilentlyContinue
 
         while ($recipientCheck -notmatch "Y|N")
         {
